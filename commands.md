@@ -1,3 +1,7 @@
+git add .
+git commit -m "mensagem"
+git push
+
 cat > COMMANDS.md << 'EOF'
 # Comandos úteis do projeto
 
@@ -44,4 +48,3 @@ git commit -m "add: comandos úteis"
 git push
 ```
 
-Quer que eu já adicione mais algum comando específico do seu projeto? 👀
