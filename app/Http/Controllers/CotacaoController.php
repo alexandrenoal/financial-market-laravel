@@ -8,9 +8,7 @@ use Illuminate\Http\Request;
 class CotacaoController extends Controller
 {
     private array $ativos = [
-        "IVVB11", "BIVB39", "HASH11", "IBIT39", "BBAS3",
-        "MXRF11", "CPTS11", "XPML11", "HGLG11", "JURO11",
-        "CRAA11", "KNCR11", "BTLG11"
+        "IVVB11", "IBIT39", "BBAS3"
     ];
 
     public function index(Request $request, CotacaoService $service)
